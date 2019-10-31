@@ -1,0 +1,124 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
+body {
+    background-color: #bdc3c7;
+    color: #f0eae9d0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profil{
+    width: 250px;
+    background-color: #31363b;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+h1{
+    color: seashell;
+    padding-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+p{
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.hlavicka{
+    position: relative;
+}
+.logo{
+    border-radius: 50%;
+    background-color: rgb(218, 47, 189);
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.portfolio{
+    background-color: #31363b;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-style: solid none solid none;
+    border-width: 0.5px;
+    
+}
+
+.portfolio:hover{
+    background-color: #e74c3c;
+ }
+
+ .portfolio a{
+    padding: 0.75rem;
+}
+
+.facebook{
+    background-color: #31363b;
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    text-align: center;
+}
+
+.facebook:hover{
+    background-color: #3b5998;
+ }
+
+.facebook a{
+    padding: 0.75rem 1.9rem 0.75rem 1.9rem;
+}
+
+.twitter{
+    background-color: #31363b;
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    text-align: center;
+    border-style: none none none solid;
+    border-width: 0.5px;
+}
+
+.twitter:hover{
+   background-color: #1da1f2;
+}
+
+.twitter a{
+    padding: 0.75rem 1.9rem 0.75rem 1.9rem;
+}
+
+a{
+    color: #f0eae9d0;
+    text-decoration: none;
+    padding: 0.75rem;
+}
+
+ul{
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 0.8rem;
+}
